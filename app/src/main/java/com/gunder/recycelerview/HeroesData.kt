@@ -39,7 +39,11 @@ object HeroesData {
             val list = arrayListOf<Hero>()
 //            mengambil indeks pada heroesname dan memasukanya kedalam variabel position dengan indeks (indices)
             for (position in heroesName.indices){
-
+                val hero = Hero()
+                hero.name = heroesName[position]
+                hero.detail = heroesDetail[position]
+                hero.photo = heroesImages[position]
+                list.add(hero)
             }
             return list
         }
