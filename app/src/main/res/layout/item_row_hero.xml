@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="horizontal"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:orientation="horizontal"
     android:padding="16dp">
 
     <de.hdodenhof.circleimageview.CircleImageView
@@ -12,8 +11,8 @@
         android:layout_width="55sp"
         android:layout_height="55sp"
         android:layout_marginEnd="16sp"
-        tools:src="@tools:sample/avatars"/>
-    
+        tools:src="@tools:sample/avatars" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -26,7 +25,7 @@
             android:layout_marginBottom="8dp"
             android:textSize="16sp"
             android:textStyle="bold"
-            tools:text="@string/heroes_name"/>
+            tools:text="@string/heroes_name" />
 
         <TextView
             android:id="@+id/tv_item_detail"
@@ -34,9 +33,7 @@
             android:layout_height="wrap_content"
             android:ellipsize="end"
             android:maxLines="2"
-            tools:text="@string/detail"/>
-
+            tools:text="@string/detail" />
     </LinearLayout>
-
 
 </LinearLayout>
